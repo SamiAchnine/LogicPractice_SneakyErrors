@@ -3,7 +3,7 @@
 def vowel_counter(word: str):
     vowel_count = 0
     for i in word:
-        if i in ["a", "e", "i", "o", "u"]:
+        if i in ["a", "e", "i", "o", "u", "y"]:
             vowel_count += 1
         else:
             continue
